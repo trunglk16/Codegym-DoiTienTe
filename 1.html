@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    .box{
+        width: 600px;
+        margin: auto;
+        margin-top: 5%;
+        padding: 100px;
+        color: orange;
+        background-color: aliceblue;
+    }
+    button{
+        height: 30px;
+        width: 60px;
+        background-color: cornsilk;
+        border-radius: 15%;
+        color: red;
+
+
+    }
+    .head{
+       text-align: center;
+    }
+
+    h1{
+    position: center;
+
+    }
+    .display{
+    }
+    table{
+
+    width: 100%;
+    }
+    h2{
+    font-size = 12px;
+    font-family: monospace;
+    }
+    th{
+    padding: 5px;
+
+    }
+</style>
+<script src="1.js"></script>
+<div class="box">
+    <h1 class="head">CONVERT MONEY</h1>
+<table >
+    <tr>
+        <th>Amount</th>
+        <th>From Currency</th>
+        <th>To Currency</th>
+    </tr>
+    <tr>
+        <th><input type="text" placeholder="1" id="money"></th>
+        <th><select id="select"  >
+                     <option value="1">VietnamDong</option>
+                 <option value="23000">USD</option>
+             </select></th>
+        <th><select id="select2" >
+                     <option value="1">VietnamDong</option>
+                     <option value="23000">USD</option>
+            </select></th>
+        <td><button type="button" onclick="get();">Convert</button></td>
+    </tr>
+
+</table>
+    <div id="display" class="display"></div>
+</div>
+<div>
+
+
+</div>
+</body>
+</html>
