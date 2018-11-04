@@ -8,24 +8,30 @@
 <body>
 <style>
     .box{
+        border-radius: 15%;
         width: 600px;
+        height: 350px;
         margin: auto;
         margin-top: 5%;
         padding: 100px;
-        color: orange;
-        background-color: aliceblue;
+        color: #5b42ff;
+        background-color: orange;
+
     }
     button{
         height: 30px;
         width: 60px;
-        background-color: cornsilk;
+        background-color: #f9170f;
         border-radius: 15%;
-        color: red;
+        color: #fbffff;
 
 
     }
     .head{
        text-align: center;
+        height: 150px;
+        font-size: 80px;
+        font-family: monospace;
     }
 
     h1{
@@ -46,6 +52,9 @@
     padding: 5px;
 
     }
+    .input{
+        width: 250px;
+    }
 </style>
 <script src="1.js"></script>
 <div class="box">
@@ -57,7 +66,7 @@
         <th>To Currency</th>
     </tr>
     <tr>
-        <th><input  type="number" placeholder="1" id="money"></th>
+        <th><input class="input" type="number" placeholder="*INSERT NUMBER HERE*" id="money"></th>
         <th><select id="select"  >
                      <option value="1">VietnamDong</option>
                      <option value="23000">USD</option>
@@ -73,7 +82,7 @@
     </tr>
 
 </table>
-    <div id="display" class="display"></div>
+    <div id="display" class="display">Result will appear here.</div>
 </div>
 <div>
 

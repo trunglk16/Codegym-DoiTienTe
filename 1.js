@@ -16,7 +16,7 @@ if (c == 27000){
     c = "EUR";
 }
 if (a == 0) {
-    document.getElementById("display").innerHTML = 'Input the number';
+    document.getElementById("display").innerHTML = 'Insert the number';
 }
 else
     document.getElementById("display").innerHTML = 'Result = ' + d + e ;
