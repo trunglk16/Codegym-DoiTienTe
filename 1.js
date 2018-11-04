@@ -9,8 +9,11 @@ function get() {
 if (c == 1) {
     e = "VND";
 }
-else {
+if (c == 23000){
     e = "USD";
+}
+if (c == 27000){
+    c = "EUR";
 }
 if (a == 0) {
     document.getElementById("display").innerHTML = 'Input the number';
